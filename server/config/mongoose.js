@@ -1,3 +1,3 @@
 mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/exam3');
+mongoose.connect('mongodb://localhost/earn');
 mongoose.Promise = global.Promise;

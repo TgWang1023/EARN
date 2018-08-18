@@ -8,7 +8,7 @@ module.exports = function(app) {
     });
 
     // about page 
-    app.get('/about', function(req, res) {
+    app.get('/payment', function(req, res) {
         contests.about(req, res);
     });
 }

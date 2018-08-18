@@ -5,12 +5,12 @@ app.set('view engine', 'ejs');
 app.use('/public', express.static('public'));
 // index page 
 app.get('/', function(req, res) {
-    res.render('pages/index');
+    res.render('pages/');
 });
 
 // about page 
-app.get('/about', function(req, res) {
-    res.render('pages/about');
+app.get('/payment', function(req, res) {
+    res.render('pages/payment');
 });
 
 app.listen(3000, function () {
